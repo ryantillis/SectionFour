@@ -51,9 +51,15 @@ public class Main {
 //        MinutesToYearsDaysCalculator.printsYearsAndDays(1051200);
 //        MinutesToYearsDaysCalculator.printsYearsAndDays(561600);
 
-        IntEqualityPrinter.printEqual(1,1,1);
-        IntEqualityPrinter.printEqual(1,1,2);
-        IntEqualityPrinter.printEqual(-1,-1,-1);
-        IntEqualityPrinter.printEqual(1,2,3);
+//        IntEqualityPrinter.printEqual(1,1,1);
+//        IntEqualityPrinter.printEqual(1,1,2);
+//        IntEqualityPrinter.printEqual(-1,-1,-1);
+//        IntEqualityPrinter.printEqual(1,2,3);
+
+        System.out.println(PlayingCat.isCatPlaying(true,10));
+        System.out.println(PlayingCat.isCatPlaying(false,36));
+        System.out.println(PlayingCat.isCatPlaying(false,35));
+        System.out.println(PlayingCat.isCatPlaying(false,45));
+
     }
     }
