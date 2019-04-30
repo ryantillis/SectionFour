@@ -47,9 +47,13 @@ public class Main {
 //        System.out.println(AreaCalculator.area(5.0, 4.0));
 //        System.out.println(AreaCalculator.area(-1.0, 4.0));
 
-        MinutesToYearsDaysCalculator.printsYearsAndDays(525600);
-        MinutesToYearsDaysCalculator.printsYearsAndDays(1051200);
-        MinutesToYearsDaysCalculator.printsYearsAndDays(561600);
+//        MinutesToYearsDaysCalculator.printsYearsAndDays(525600);
+//        MinutesToYearsDaysCalculator.printsYearsAndDays(1051200);
+//        MinutesToYearsDaysCalculator.printsYearsAndDays(561600);
 
+        IntEqualityPrinter.printEqual(1,1,1);
+        IntEqualityPrinter.printEqual(1,1,2);
+        IntEqualityPrinter.printEqual(-1,-1,-1);
+        IntEqualityPrinter.printEqual(1,2,3);
     }
     }
